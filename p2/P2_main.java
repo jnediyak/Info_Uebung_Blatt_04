@@ -41,6 +41,9 @@ public class P2_main {
 			break;
 		}
 		System.out.println(intResult + "\t" + doubleResult);
+		/**
+		 * bei (c), (d) und (e) gehen Informationen verloren, weil z.b. c/b ein double ergibt, aber weil beides Integer sind wird der Nachkommateil weggeschnitten.
+		 */
 	}
 
 }
